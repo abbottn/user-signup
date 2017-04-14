@@ -153,8 +153,7 @@ class Signup(webapp2.RequestHandler):
         else:
             self.redirect('/welcome?username=' + username)
 
-        #form = page_header + form + page_footer
-        #self.write_form()
+        
 
 class Welcome(webapp2.RequestHandler):
     """ Handles requests coming in to '/welcome'
